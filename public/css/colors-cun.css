@@ -1,0 +1,63 @@
+/* primarios
+#84BD00 rgb(132, 189, 0)
+#007A33 rgb(0, 122, 51)
+#898D8D rgb(137, 141, 141)
+*/
+/* secundarios
+#0C2340 rgb(12,35,64)
+#00B388 rgb(0, 179, 136)
+#00859B rgb(0, 133, 155)
+#005EB8 rgb(0, 94, 184)
+#1B365D rgb(27, 54, 93)
+#FFCD00 rgb(255, 205, 0)
+*/
+/* escuela ciencias sociales
+#201547 rgb(32,21,71)
+*/
+/* escuela derecho
+#3553c8 rgb(53,83,200)
+*/
+/* escuela ciencias administrativas
+#003b5c rgb(0,59,92)
+#00587c rgb(0,88,124)
+#006A8E rgb(0,106,142)
+#007096 rgb(0, 112, 150)
+#009CBD rgb(0,156,189)
+#48A9C5 rgb(72,169,197)
+*/
+/* escuela comunicacion y bellas artes
+#862041 rgb(104,32,65)
+#A50034 rgb(165,0,52)
+#BA0C2F rgb(186,12,47)
+#D50032 rgb(213,0,50)
+#CE0058 rgb(206,0,88)
+#E0004D rgb(224,0,77)
+*/
+/* escuela ingenieria
+#00594C rgb(0,89,76)
+#279989 rgb(39,153,137)
+#00B388 rgb(0,179,136)
+#2CD5C4 rgb(44,213,196)
+*/
+/* escuela negocios y ciencias economicas
+#D57800 rgb(213,120,0)
+#FF9E1B rgb(255,158,27)
+#FFB549 rgb(255,181,73)
+#FFC56E rgb(255,197,110)
+*/
+:root {
+  --black-cun: #000000;
+  --white-cun: #ffffff;
+  --grey-cun: #898d8d;
+  --blue-cun: #005eb8;
+  --blue-cun-rgb: rgb(0, 94, 184);
+  --light-blue-cun: #1b365d;
+  --dark-blue-cun: #0c2340;
+  --light-green-cun: #84bd00;
+  --dark-green-cun: #007a33;
+  --light-aqua-cun: #00b388;
+  --dark-aqua-cun: #00859b;
+  --light-yellow-cun: #ffcd00;
+  --red-cun: #ce0058;
+  --accordion-btn-focus-box-shadow: 0 0 0 0.08rem var(--dark-green-cun);
+}
