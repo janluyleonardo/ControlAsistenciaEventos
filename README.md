@@ -6,7 +6,7 @@
 > [!NOTE]
 > - [Clonar el repositorio](#).
 >   ```bash
->   [https://github.com/MORJAN-CUN/CursosCertificados.git](https://github.com/janluyleonardo/ControlAsistenciaEventos.git)
+>   git clone https://github.com/janluyleonardo/ControlAsistenciaEventos.git
 >- [Intalar dependencias del proyecto composer](#).
 >   ```bash
 >   composer install
