@@ -3,6 +3,8 @@
 >## Comandos para clonar plataforma de Control de asistencia a eventos ## 
 >### Para clonar en produccion o pruebas se deben tener en cuenta los siguientes comandos: ###
 ---
+Comandos necesarios
+---
 > [!NOTE]
 > - [Clonar el repositorio](#).
 >   ```bash
