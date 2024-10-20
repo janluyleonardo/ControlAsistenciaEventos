@@ -5,6 +5,7 @@
 ---
 Comandos necesarios
 ---
+
 > [!NOTE]
 > - [Clonar el repositorio](#).
 >   ```bash
@@ -21,35 +22,37 @@ Comandos necesarios
 >- [Generar llave de aplicacion para su correcto funcionamiento](#).
 >   ```bash
 >   php artisan key:generate
->- [Generar enlace simbolico l directorio storage para poder manipular imagenes, archivos desde usuario logueado](#).
->   ```bash
->   php artisan storage:link
->- [Crear carpeta para las fuentes que maneja la plataforma](#).
->  ruta: public/storage/fonts
->   ```bash
->   cd storage
->   mkdir fonts
->- [Cambiar ruta de acceso en archivo de certificados.css a produccion](#).
->   ```bash
->   background-image: url('http://localhost/asistencia-grados/public/images/certificados/fondo-certificado.png') !important;
->
->   background-image: url('https://asistenciagrados.cunapp.dev/images/certificados/fondo-certificado.png ') !important;
 >- [Asignar credenciales de conexion a la DB, usuario y contraseña, en archivo .env ](#).
 >   ```bash
 >   DB_DATABASE=Database name  
 >   DB_USERNAME=user database name  
->   DB_PASSWORD=password database name
->- [Ejecutar migraciones de la base de datos para que se ejecuten las tabla del proyecto ](#).
+>   DB_PASSWORD=password database user
+>- [Ejecutar migraciones de la base de datos para que se creen las tabla del proyecto ](#).
 >   ```bash
 >   php artisan migrate
->- [opcional ejecutar este comando si se cuenta con datos de prueba iniciales en la base de datos](#).
+>- [Ejecutar el proyecto en ambiente local o de pruebas](#).
+>   ```bash
+>   php artisan serve
+---
+Comandos opcionales
+---
+> [!WARNING]
+> 
+>- [Generar enlace simbolico al directorio storage para poder manipular imagenes, archivos desde usuario logueado](#).
+>   ```bash
+>   php artisan storage:link
+>- [Crear carpeta para las fuentes que maneja la plataforma, si se quieren personalizar (ruta: public/storage/fonts)](#).
+>   ```bash
+>   cd storage
+>   mkdir fonts
+>- [Ejecutar este comando si se cuenta con datos de prueba iniciales en la base de datos](#).
 >   ```bash
 >   php artisan migrate --seed
 
 > [!TIP]
-> ## Propietarios de la plataforma ProyeccionSocial ##
+> ## Propietarios de la plataforma Control de asistencia a eventos ##
 > 
-> Desde el área de grados y titulaciones, realizan la solicitud de esta plataforma para la generación de las invitaciones para los diferentes estudiantes que estan proximos a graduar por ceremonia y ventanilla, siendo principal responsable la compañera Sonia Mireya Acosta Lopez y su equipo.
+> Janluy Leonardo Moreno Coronado
 
 > [!TIP]
 > ## Documentación del proyecto ##
