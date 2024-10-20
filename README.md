@@ -1,12 +1,12 @@
 > [!IMPORTANT]
 >
->## Comandos para clonar plataforma de Cursos Certificados ## 
->### Para clonar el repositorio e instalarlo en produccion o pruebas se deben tener en cuenta los siguientes comandos: ###
-
+>## Comandos para clonar plataforma de Control de asistencia a eventos ## 
+>### Para clonar en produccion o pruebas se deben tener en cuenta los siguientes comandos: ###
+---
 > [!NOTE]
 > - [Clonar el repositorio](#).
 >   ```bash
->   https://github.com/MORJAN-CUN/CursosCertificados.git
+>   [https://github.com/MORJAN-CUN/CursosCertificados.git](https://github.com/janluyleonardo/ControlAsistenciaEventos.git)
 >- [Intalar dependencias del proyecto composer](#).
 >   ```bash
 >   composer install
@@ -16,10 +16,10 @@
 >- [crear archivo .env a partir del archivo de ejemplo](#).
 >   ```bash
 >   cp .env.example .env
->- [Generar llave de aplicacion para que no de error](#).
+>- [Generar llave de aplicacion para su correcto funcionamiento](#).
 >   ```bash
 >   php artisan key:generate
->- [Generar enlace simbolico de storage para poder manipular imagenes de usuario logueado](#).
+>- [Generar enlace simbolico l directorio storage para poder manipular imagenes, archivos desde usuario logueado](#).
 >   ```bash
 >   php artisan storage:link
 >- [Crear carpeta para las fuentes que maneja la plataforma](#).
